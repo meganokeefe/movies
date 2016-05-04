@@ -1,20 +1,18 @@
-# movies
-(Final project for CS249, Spring 2016)
+# Movies Project
+Final project for CS249, Spring 2016
 
-Exploratory data analysis of the CMU Movies corpus: `http://www.cs.cmu.edu/~ark/personas/`
+Exploratory data analysis of the CMU Movies corpus: [http://www.cs.cmu.edu/~ark/personas/
+](http://)
 
-Preliminary questions/ideas:
+My re-formatted pickle file, combining movie metadata, character metadata, and summaries (132MB): 
+[https://drive.google.com/file/d/0BzuUXoRjB9NreUhkQ0YxMFdGSHM/view?usp=sharing ](http://)
 
-* Is there a relationship between box office revenue and genre?
-* Box office revenue and release date? (would have to adjust for inflation 
-* Relationship between running time and genre? (eg. are action movies longer than comedie)
-* Relationship between average age of the female characters (or just # of female characters) and sal?
-* Ratio of male to female characters (overall, by genre, by ye)
-* Look at titles of character names- are males more likely to have "Dr.," for instan?
-* The most common intersections between genre 
-* Other things (may not have time to d:
-* Visualization of popular celebrities through time and the characters they plad
-* Text analysis of the plot summaries (something simple like n-grams) - what plot elements are more closely associated with a top-selling film?
+#### Four key areas of analysis:
 
+* What is the relationship between box office revenue and genre? (Do some genres make more money? What about changes over time?)
 
+* What are the most common intersections between genres?
 
+* ** Gender representation in film:** What is the average age of the male/female lead over time? What is the ratio between male/female actors across different genres? 
+
+* **Text analysis of plot summaries:** which phrases are more likely to produce a top-grossing film? 
