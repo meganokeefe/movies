@@ -12,7 +12,7 @@ def from_pickle(fn):
     pkl_file.close()
     return mydict.items()
 
-def search_by_title(searchtitle):
+def search_by_title(searchtitle, ditems):
     return [d for d in ditems if searchtitle in d[1]['title']]
 
 #gets a list of the unique
@@ -57,8 +57,8 @@ def get_median_revenue(ditems, gname):
 diadem = from_pickle('films.pkl')
 
 #get revenues
-genres = get_flat_unique('genres', diadem)
-gup = [(x) for x in genres]
-for tup in gup:
-    gup.append(get_median_revenue(diadem, tup[0]))
-print gup
+# genres = get_flat_unique('genres', diadem)
+# gup = [(x) for x in genres]
+# for tup in gup:
+#     gup.append(get_median_revenue(diadem, tup[0]))
+# print gup
