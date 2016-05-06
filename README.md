@@ -13,7 +13,7 @@ My re-formatted pickle file, combining movie metadata, character metadata, and s
 
 -  ~~What are the most common intersections between genres?~~
 (Complete. Created a Genre Explorer with weighted labels. See genre_intersections.py)
-The explorer is at [cs.wellesley.edu/mokeefe2/cs249/genres]()
+The explorer is at [cs.wellesley.edu/~mokeefe2/cs249/genres]()
 
 ![image](genre_explorer.jpg)
 
