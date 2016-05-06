@@ -2,6 +2,7 @@
 #Each of these methods generates one of my charts
 import pygal
 from helper_functions import *
+import operator
 import pprint as pp
 from pygal.style import Style
 
@@ -45,8 +46,28 @@ def stacked_bar(ditems):
     bar_chart.add('Romance', romance)
     bar_chart.render_to_file('fourbar_1970_2012.svg')
 
+#horizontal bar median revenue chart (between top-occurring genres over all years)
+def revenue(ditems):
+    whitelist = get_flat_cat_threshold('genres', ditems, 1000)
+    with open("genre_revenue_all.txt") as infile:
+        raw = infile.readlines()
+    cleaned = []
+    for r in raw:
+        splt = r.split(" ")
+        gname = " ".join(splt[:len(splt)-1])
+        if gname in whitelist:
+            revenueVal = splt[len(splt)-1]
+            if revenueVal != 'nan':
+                cleaned.append([gname, float(revenueVal)/1000000.0]) #in millions
+    cleaned.sort(key=lambda x:-x[1])
+    line_chart = pygal.HorizontalBar()
+    line_chart.title = 'Median Revenue By Genre (In Millions)'
+    for c in cleaned:
+        line_chart.add(c[0], c[1])
+    line_chart.render_to_file('genre_revenue.svg')
+
+
 #Run from here
 diadem = from_pickle('films.pkl')
 #one_genre(diadem, 'Black-and-white', 1888, 2012, bw_style)
-#one_genre(diadem, 'Western', 1888, 2012, brown_style)
-#one_genre(diadem, 'Science Fiction', 1910, 2012, lime_style)
+revenue(diadem)

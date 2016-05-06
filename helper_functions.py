@@ -21,6 +21,17 @@ def get_flat_unique(element_name, ditems):
     hs = [item for sublist in hier for item in sublist]
     return [x[0] for x in Counter(hs).items()]
 
+#gets movies as long as there are "thresh" many of them in an element category
+def get_flat_cat_threshold(element_name, ditems, thresh):
+    hier = [item[1][element_name] for item in ditems]
+    hs = [item for sublist in hier for item in sublist]
+    counts = Counter(hs).items()
+    output = []
+    for c in counts:
+        if c[1] >= thresh:
+            output.append(c[0])
+    return output
+
 #gets a list of movies under the specified genre name
 def get_by_genre(gname, ditems):
     return [f for f in ditems if gname in f[1]['genres']]
@@ -54,11 +65,18 @@ def get_median_revenue(ditems, gname):
     revs = [int(i) for i in revs if i!=""]
     return np.median(revs)
 
-diadem = from_pickle('films.pkl')
 
-#get revenues
-# genres = get_flat_unique('genres', diadem)
-# gup = [(x) for x in genres]
-# for tup in gup:
-#     gup.append(get_median_revenue(diadem, tup[0]))
-# print gup
+#Get median revenues across time, all genres
+def write_revenues():
+    print "reading pkl..."
+    diadem = from_pickle('films.pkl')
+    genres = get_flat_unique('genres', diadem)
+    gup = [[x] for x in genres]
+    print "getting revenue..."
+    for tup in gup:
+        tup.append(get_median_revenue(diadem, tup[0]))
+    print "writing file..."
+    with open("genre_revenue_all.txt", "wb") as outfile:
+        for tup in gup:
+            outfile.write(tup[0]+ " "+ str(tup[1])+"\n")
+        outfile.close()
