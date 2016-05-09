@@ -17,9 +17,9 @@ The explorer is at [cs.wellesley.edu/~mokeefe2/cs249/genres]()
 
 ![image](genre_explorer.jpg)
 
--  ** Gender representation in film:** What is the average age of the male/female lead over time (line chart)? What is the ratio between male/female actors across different genres (multi pie-chart)? 
+-  ~~** Gender representation in film:**~~  What is the average age of the male/female lead over time (line chart)? What is the ratio between male/female actors across different genres (multi pie-chart)?  (Both of these analyses/visualizations complete, 5/9- see gender.py)
 
-- **Basic text analysis of plot summaries:** which phrases are more likely to produce a top-grossing film? 
+- **UP NEXT: Plot Elements Correlated with Revenue?** which phrases (taken from the plot summaries) are more likely to produce a top-grossing film? 
 
 #### Process goals / new things to learn
 - Given that this data is very text-heavy with few continuous variables, for this project I'm going to use dictionaries/pickle files rather than Pandas.
