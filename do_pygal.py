@@ -68,6 +68,6 @@ def revenue(ditems):
 
 
 #Run from here
-diadem = from_pickle('films.pkl')
+#diadem = from_pickle('films.pkl')
 #one_genre(diadem, 'Black-and-white', 1888, 2012, bw_style)
-revenue(diadem)
+#revenue(diadem)
