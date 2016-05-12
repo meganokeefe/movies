@@ -50,7 +50,7 @@ def avg_age_chart(ditems, start, end):
 
 #get male/female ratio for all films in one genre
 def get_percent_male(gname, ditems):
-    print "Getting percent male for ", gname
+    #print "Getting percent male for ", gname
     subset = get_by_genre(gname, ditems)
     numFemale = 0.0
     numMale = 0.0
@@ -61,9 +61,12 @@ def get_percent_male(gname, ditems):
                 numFemale = numFemale + 1
             if c[1] == 'M':
                 numMale = numMale + 1
-    print "NUM MALE=", numMale, " and NUM FEMALE=", numFemale
-    output = (numMale/(numMale+numFemale))*100.0
-    print "PERCENT MALE IS ", output
+    #print "NUM MALE=", numMale, " and NUM FEMALE=", numFemale
+    if numMale > 0:
+        output = (numMale/(numMale+numFemale))*100.0
+    else:
+        return -1.0
+    #print "PERCENT MALE IS ", output
     return output
 
 #Gender equity chart (M vs. F) for one genre
@@ -88,8 +91,19 @@ def genre_gauge(ditems):
     gauge.render_to_file('ninegauge.svg')
 
 print "Reading data.."
-diadem = from_pickle('films.pkl')
+ditems = from_pickle('films.pkl')
 #print "Generating age chart..."
 #avg_age_chart(diadem, 1930, 2012)
+#genre_gauge(diadem)
 
-genre_gauge(diadem)
+#print out the % male for every genre (sorted)
+percents = [] #list of tuples
+genres = get_flat_unique('genres', ditems)
+for gname in genres:
+    p = get_percent_male(gname, ditems)
+    percents.append((gname, p))
+#sort / print
+percents.sort(key=lambda x: x[1])
+#print "PERCENT MALE BY GENRE: \n", result
+for tup in percents:
+    print tup[0]+ ": "+ ("%.2f" % tup[1]) 

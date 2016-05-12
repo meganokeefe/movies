@@ -6,14 +6,18 @@ import operator
 import pprint as pp
 from pygal.style import Style
 
-bw_style = Style(
- colors=('#000000', '#E8537A', '#E95355', '#E87653', '#E89B53'))
+s1 = Style(
+ colors=('#EBDF36', '#E8537A', '#E95355', '#E87653', '#E89B53'))
 
-brown_style = Style(
- colors=('#b8603a', '#E8537A', '#E95355', '#E87653', '#E89B53'))
+s2 = Style(
+ colors=('#ED7E1C', '#E8537A', '#E95355', '#E87653', '#E89B53'))
 
-lime_style = Style(
- colors=('#85f63d', '#E8537A', '#E95355', '#E87653', '#E89B53'))
+s3 = Style(
+ colors=('#353173', '#E8537A', '#E95355', '#E87653', '#E89B53'))
+
+s4 = Style(
+ colors=('#83D4C0', '#E8537A', '#E95355', '#E87653', '#E89B53'))
+
 
 def sample_bar():
     bar_chart = pygal.Bar()                                            # Then create a bar graph object
@@ -69,5 +73,5 @@ def revenue(ditems):
 
 #Run from here
 #diadem = from_pickle('films.pkl')
-#one_genre(diadem, 'Black-and-white', 1888, 2012, bw_style)
+#one_genre(diadem, 'Indie', 1888, 2012, s1)
 #revenue(diadem)
