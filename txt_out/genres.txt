@@ -1,0 +1,363 @@
+Absurdism 92
+Acid western 9
+Action 8798
+Action Comedy 169
+Action Thrillers 516
+Action/Adventure 4561
+Addiction Drama 61
+Adult 223
+Adventure 4963
+Adventure Comedy 144
+Airplanes and airports 56
+Albino bias 17
+Alien Film 113
+Alien invasion 6
+Americana 107
+Animal Picture 183
+Animals 49
+Animated cartoon 122
+Animated Musical 54
+Animation 3534
+Anime 445
+Anthology 14
+Anthropology 15
+Anti-war 42
+Anti-war film 41
+Apocalyptic and post-apocalyptic fiction 35
+Archaeology 10
+Archives and records 8
+Art film 464
+Auto racing 78
+Avant-garde 190
+B-movie 493
+B-Western 63
+Backstage Musical 26
+Baseball 10
+Beach Film 21
+Beach Party film 2
+Bengali Cinema 16
+Biker Film 25
+Biographical film 1198
+Biography 1392
+Biopic [feature] 635
+Black comedy 1025
+Black-and-white 9094
+Blaxploitation 107
+Bloopers & Candid Camera 6
+Bollywood 1321
+Boxing 77
+Breakdance 1
+British Empire Film 25
+British New Wave 14
+Bruceploitation 4
+Buddy cop 15
+Buddy film 372
+Buddy Picture 1
+Business 13
+C-Movie 1
+Camp 3
+Caper story 109
+Cavalry Film 15
+Chase Movie 110
+Chick flick 1
+Childhood Drama 148
+Children's 508
+Children's Entertainment 20
+Children's Fantasy 280
+Children's Issues 5
+Children's/Family 926
+Chinese Movies 1525
+Christian film 160
+Christmas movie 93
+Clay animation 6
+Cold War 11
+Combat Films 101
+Comdedy 1
+Comedy 16349
+Comedy film 4362
+Comedy horror 28
+Comedy of Errors 207
+Comedy of manners 273
+Comedy Thriller 91
+Comedy Western 72
+Comedy-drama 1720
+Coming of age 910
+Coming-of-age film 5
+Computer Animation 227
+Computers 8
+Concert film 301
+Conspiracy fiction 2
+Costume Adventure 106
+Costume drama 485
+Costume Horror 62
+Courtroom Comedy 6
+Courtroom Drama 242
+Creature Film 387
+Crime 48
+Crime Comedy 307
+Crime Drama 563
+Crime Fiction 6948
+Crime Thriller 2122
+Cult 759
+Culture & Society 751
+Cyberpunk 6
+Czechoslovak New Wave 9
+Dance 116
+Demonic child 6
+Detective 405
+Detective fiction 340
+Disaster 287
+Docudrama 420
+Documentary 5630
+Dogme 95 28
+Domestic Comedy 213
+Doomsday film 122
+Drama 34007
+Dystopia 95
+Ealing Comedies 15
+Early Black Cinema 8
+Education 8
+Educational 39
+Ensemble Film 453
+Environmental Science 34
+Epic 278
+Epic Western 18
+Erotic Drama 156
+Erotic thriller 209
+Erotica 316
+Escape Film 56
+Essay Film 26
+Existentialism 36
+Experimental film 258
+Exploitation 24
+Expressionism 3
+Extreme Sports 32
+Fairy tale 64
+Family & Personal Relationships 17
+Family Drama 1043
+Family Film 4598
+Family-Oriented Adventure 244
+Fan film 39
+Fantasy 2820
+Fantasy Adventure 220
+Fantasy Comedy 224
+Fantasy Drama 20
+Feature film 14
+Female buddy film 5
+Feminist Film 99
+Fictional film 9
+Filipino 12
+Filipino Movies 346
+Film  clef 34
+Film & Television History 80
+Film 122
+Film adaptation 1531
+Film noir 622
+Film-Opera 5
+Filmed Play 7
+Finance & Investing 6
+Foreign legion 10
+Future noir 33
+Gangster Film 428
+Gay 289
+Gay Interest 287
+Gay pornography 73
+Gay Themed 357
+Gender Issues 76
+Giallo 35
+Glamorized Spy Film 50
+Goat gland 4
+Gothic Film 73
+Graphic & Applied Arts 31
+Gross out 58
+Gross-out film 58
+Gulf War 6
+Hagiography 27
+Hardcore pornography 10
+Haunted House Film 76
+Health & Fitness 15
+Heaven-Can-Wait Fantasies 24
+Heavenly Comedy 31
+Heist 174
+Hip hop movies 80
+Historical Documentaries 7
+Historical drama 317
+Historical Epic 103
+Historical fiction 606
+History 888
+Holiday Film 111
+Homoeroticism 1
+Horror 5280
+Horror Comedy 241
+Horse racing 14
+Humour 4
+Hybrid Western 37
+Illnesses & Disabilities 55
+Indian Western 26
+Indie 6897
+Inspirational Drama 36
+Instrumental Music 25
+Interpersonal Relationships 52
+Inventions & Innovations 15
+Japanese Movies 2322
+Journalism 9
+Jukebox musical 8
+Jungle Film 79
+Juvenile Delinquency Film 59
+Kafkaesque 6
+Kitchen sink realism 16
+Language & Literature 29
+Latino 6
+Law & Crime 85
+Legal drama 8
+LGBT 1163
+Libraries and librarians 5
+Linguistics 1
+Live action 4
+Malayalam Cinema 13
+Marriage Drama 190
+Martial Arts Film 928
+Master Criminal Films 31
+Media Satire 88
+Media Studies 35
+Medical fiction 79
+Melodrama 721
+Mockumentary 173
+Mondo film 13
+Monster 118
+Monster movie 189
+Movie serial 18
+Movies About Gladiators 6
+Mumblecore 10
+Music 1088
+Musical 4160
+Musical comedy 235
+Musical Drama 192
+Mystery 3195
+Mythological Fantasy 34
+Natural disaster 15
+Natural horror films 175
+Nature 65
+Neo-noir 60
+Neorealism 1
+New Hollywood 88
+New Queer Cinema 1
+News 16
+Ninja movie 2
+Northern 23
+Nuclear warfare 3
+Operetta 5
+Outlaw 5
+Outlaw biker film 18
+Parkour in popular culture 6
+Parody 999
+Patriotic film 2
+Period Horror 2
+Period piece 1758
+Pinku eiga 33
+Plague 5
+Point of view shot 3
+Political cinema 415
+Political Documetary 2
+Political drama 799
+Political satire 102
+Political thriller 242
+Pornographic movie 317
+Pornography 17
+Pre-Code 180
+Prison 131
+Prison escape 2
+Prison film 13
+Private military company 2
+Propaganda film 213
+Psycho-biddy 15
+Psychological horror 5
+Psychological thriller 1331
+Punk rock 68
+Race movie 7
+Reboot 9
+Religious Film 73
+Remake 89
+Revenge 2
+Revisionist Fairy Tale 2
+Revisionist Western 69
+Road movie 343
+Road-Horror 21
+Roadshow theatrical release 43
+Roadshow/Carny 5
+Rockumentary 193
+Romance Film 10234
+Romantic comedy 2680
+Romantic drama 3372
+Romantic fantasy 72
+Romantic thriller 1
+Samurai cinema 44
+Satire 704
+School story 5
+Sci Fi Pictures original films 5
+Sci-Fi Adventure 34
+Sci-Fi Horror 143
+Sci-Fi Thriller 5
+Science Fiction 3052
+Science fiction Western 6
+Screwball comedy 299
+Sex comedy 323
+Sexploitation 126
+Short Film 8141
+Silent film 5250
+Silhouette animation 1
+Singing cowboy 5
+Slapstick 617
+Slasher 768
+Slice of life story 122
+Social issues 320
+Social problem film 136
+Softcore Porn 66
+Space opera 5
+Space western 13
+Spaghetti Western 141
+Splatter film 31
+Sponsored film 8
+Sports 1206
+Spy 474
+Stand-up comedy 93
+Star vehicle 2
+Statutory rape 1
+Steampunk 35
+Stoner film 52
+Stop motion 173
+Superhero 125
+Superhero movie 302
+Supermarionation 3
+Supernatural 641
+Surrealism 156
+Suspense 759
+Swashbuckler films 127
+Sword and Sandal 27
+Sword and sorcery 51
+Sword and sorcery films 43
+Tamil cinema 67
+Teen 925
+Television movie 972
+The Netherlands in World War II 2
+Therimin music 4
+Thriller 8744
+Time travel 88
+Tokusatsu 4
+Tollywood 48
+Tragedy 101
+Tragicomedy 61
+Travel 52
+Vampire movies 3
+War effort 1
+War film 2652
+Werewolf fiction 4
+Western 2226
+Whodunit 80
+Women in prison films 17
+Workplace Comedy 97
+World cinema 7155
+World History 21
+Wuxia 125
+Z movie 3
+Zombie Film 274
